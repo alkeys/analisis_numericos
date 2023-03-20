@@ -63,7 +63,12 @@ public class metodoimprimir {
          datos[i][0]=i;
 
      for (int j = 1; j <encabesado.length; j++ ){
-     datos[i][j]=mapa.get(encabesado[j]+(i));
+         if(encabesado[j].equals("condicion")){
+             datos[i][j]=(mapa.get(encabesado[j]+(i))>0)? "  >":"  <";
+         }else{
+             datos[i][j]=mapa.get(encabesado[j]+(i));
+         }
+
      }
      }
 
