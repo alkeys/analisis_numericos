@@ -2,7 +2,7 @@ package analisis.metodos;
 
 public class RAICES_DE_POLINOMIOS {
 
-    public double[] cuadratica(float a, float b, float c) {
+    public double[] cuadratica(double a, double b, double c) {
         double[] temp = new double[2];
         temp[0] = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;
         temp[1] = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / 2 * a;

@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68ad534c-47dd-4ae2-baed-b9bb95fac7fa" name="Changes" comment="metodos de analisis numericos">
-      <change afterPath="$PROJECT_DIR$/src/analisis/metodos/RAICES_DE_POLINOMIOS.java" afterDir="false" />
+    <list default="true" id="68ad534c-47dd-4ae2-baed-b9bb95fac7fa" name="Changes" comment="Se agrego las funciones para raíces polinómicas">
+      <change afterPath="$PROJECT_DIR$/src/analisis/funciones/funcionMuller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analisis/metodos/BAIRSTOW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analisis/metodos/horner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analisis/metodos/muller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analisis/funciones/utilfuncion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analisis/funciones/utilfuncion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analisis/metodos/RAICES_DE_POLINOMIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/analisis/metodos/RAICES_DE_POLINOMIOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/metodoimprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metodoimprimir.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aviles/Desktop/anailisis numerico",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aviles/Desktop/anailisis numerico&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -75,7 +80,12 @@
       <workItem from="1678200951960" duration="19000" />
       <workItem from="1678518137889" duration="237000" />
       <workItem from="1678518693257" duration="127000" />
-      <workItem from="1679280745670" duration="7056000" />
+      <workItem from="1679280745670" duration="7938000" />
+      <workItem from="1679372001005" duration="9480000" />
+      <workItem from="1679384152948" duration="8601000" />
+      <workItem from="1679395859753" duration="3188000" />
+      <workItem from="1679635057021" duration="656000" />
+      <workItem from="1679637936835" duration="25594000" />
     </task>
     <task id="LOCAL-00001" summary="metodos de analisis numericos">
       <created>1677987781892</created>
@@ -84,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677987781892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se agrego las funciones para raíces polinómicas">
+      <created>1679333071355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679333071356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="metodos de analisis numericos" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodos de analisis numericos" />
+    <MESSAGE value="Se agrego las funciones para raíces polinómicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego las funciones para raíces polinómicas" />
   </component>
 </project>
